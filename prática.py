@@ -27,10 +27,12 @@ else:
     print('Continue seguindo!')
 
 '''
-'''
+
 #EXERCÍCIOS
 
-#Exercício 1
+'''
+
+#EXERCÍCIO 1
 
 nome = input('Digite seu nome:')
 idade = int(input('Digite sua idade:'))
@@ -41,8 +43,7 @@ else:
     print('{}, você é menor de idade!'.format (nome))
 
 
-
-#Exercício 2
+#EXERCÍCIO 2
 
 aluno = input('Digite o nome do aluno:')
 nota1 = float(input('Digite a primeira nota:'))
@@ -57,8 +58,7 @@ if mediafinal >= 7:
 else:
     print('Sinto muito {}... Você tirou {} e está reprovado...'.format (aluno,mediafinal))
 
-
-#Exercício 3
+#EXERCÍCIO 3
 
 limite = 60
 velocidade = int(input('Digite a velocidade do veículo:'))
@@ -69,7 +69,7 @@ if velocidade > limite:
 else:
     print('Velocidade permitida.')
 
-#Exercício 4 (precisei de ajuda)
+#EXERCÍCIO 4 (precisei de ajuda)
 
 n1 = int(input('Digite o primeiro número:'))
 n2 = int(input('Digite o segundo número:'))
@@ -95,7 +95,7 @@ elif escolha == '3':
 elif escolha == '4':
     print (divisão)
 
-#Exercício 5
+#EXERCÍCIO 5
 
 nome = input('Nome do produto:')
 preço = int(input('Preço do produto:'))
@@ -110,15 +110,14 @@ if saldo > preço:
 if saldo < preço:
     print('Saldo insuficiente! Faltam R$ {}.'.format(contaruim))
 
-'''
-
-# Exercício 6 (está errado, ainda não corrigi)
+# EXERCÍCIO 6 (está errado, ainda não corrigi)
 
 nome = input('Digite seu nome:')
 idade = int(input('Digite sua idade:'))
 altura = float(input('Digite sua altura:'))
 
 if idade >= 12 and altura >= 1.40:
-    print('{}, você pode entrar no briquedo!'.format(nome))
+    print('{}, você pode entrar no brinquedo!'.format(nome))
 else:
     print('{}, Você não pode entrar no brinquedo...'.format(nome))
+'''
