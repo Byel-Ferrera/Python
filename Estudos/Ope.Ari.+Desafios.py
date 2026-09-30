@@ -125,13 +125,14 @@ print(f'Com o aumento, seu salário de R$ {salario:.2f}, irá para {valor:.2f}.'
 '''
 c = float(input('Informe a temperatura em °C: '))
 f = ((9*c)/5)+32
+
 print(f'A temperatura de {c} °C, corresponde a {f} °F.')
 '''
 
 #---------------Desafio 15----------------
 #Quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado.
 #Calcule o preço a pagar sabendo que o carro custa 60 reais por dia e 0,15 por km rodado.
-
+'''
 km = float(input('Quantos km o carro percorreu? '))
 
 dias = int(input('Por quantos dias o carro foi alugado? '))
@@ -144,29 +145,14 @@ calculo2 = dias * precodia
 final = calculo1 + calculo2
 
 print(f'Obrigado por utilizar nossos serviços! Vimos que seu aluguel durou {dias} dias, e percorreu {km} km.')
+
 print(f'Nossos valores são:\n{precokm} centavos por km\n{precodia} a diária')
+
 print(f'O total a pagar é de R${final}')
+'''
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#------------------------------------------------------------DESAFIO À PARTE----------------------------------------------------------------
+#-------------------------------------------DESAFIO À PARTE (eu propus e fiz)-----------------------------------------------------------
 #CRIAR UMA CALCULADORA
 '''
 n1 = input('Digite um número: ')
@@ -212,4 +198,3 @@ Mas algumas coisas que eu quis aperfeiçoar, eu pesquisei.
 Coisas como :g, f-string (entender o conceito pra usar), \n eu já sabia, mas n lembrava,
 in e not in no while; todas foram pesquisadas. Mas o desafio em si, foi concluído sem ajuda.
 '''
-
